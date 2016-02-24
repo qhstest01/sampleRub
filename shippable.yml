@@ -5,12 +5,11 @@ language: ruby
 rvm:
   - 1.9.3
   
-services: 
-  - cassandra
+
 
 build:
   pre_ci_boot:
-    image_name: drydock/u14ruball
+    image_name: drydock/u14rub
     image_tag: prod
     pull: true  
     
