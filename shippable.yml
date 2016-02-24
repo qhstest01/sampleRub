@@ -24,6 +24,9 @@ services:
   - memcache
   - mongo
   - rabbitmq
+  - neo4j
+  - couchdb
+  - rethinkdb
   
 build:
 
