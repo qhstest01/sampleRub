@@ -10,7 +10,7 @@ services:
 
 build:
   pre_ci_boot:
-    image_name: drydock/u12ruball
+    image_name: drydock/u14ruball
     image_tag: prod
     pull: true  
     
