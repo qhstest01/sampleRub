@@ -1,4 +1,3 @@
-#Language Setting
 language: ruby
 
 # Version number
@@ -18,5 +17,11 @@ rvm:
   - ree
 
 build:
+
+  pre_ci_boot:
+    image_name: drydock/u14rub
+    image_tag: prod
+    pull: true  
+    
   ci:
     - ruby -v
