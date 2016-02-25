@@ -5,11 +5,12 @@ language: ruby
 rvm:
   - 1.9.3
   
-
+services:
+ - selenium
 
 build:
   pre_ci_boot:
-    image_name: drydock/u12rub
+    image_name: drydock/u14rubpls
     image_tag: prod
     pull: true  
     
