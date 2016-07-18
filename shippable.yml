@@ -16,3 +16,23 @@ build:
     
   ci:
     - ruby -v
+integrations:
+  
+  notifications:
+    - integrationName: email
+      type: email
+      recipients: 
+        - shiphitchcock2@gmail.com
+      #  - vidya@shippable.com
+      
+    
+    
+    - integrationName: ship-hipchat
+      type: hipchat
+      recipients: 
+        - "#pvt-room"
+        - "@shiphitchcock2"
+        - "#pub-room"
+      
+
+
