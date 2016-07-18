@@ -23,6 +23,10 @@ integrations:
       type: email
       recipients: 
         - shiphitchcock2@gmail.com
+      on_start: always
+      on_pull_request: always
+      on_success: always
+      on_failure: always
       #  - vidya@shippable.com
       
     
@@ -33,6 +37,9 @@ integrations:
         - "#pvt-room"
         - "@shiphitchcock2"
         - "#pub-room"
-      
+      on_start: always
+      on_pull_request: always
+      on_success: always
+      on_failure: always
 
 
